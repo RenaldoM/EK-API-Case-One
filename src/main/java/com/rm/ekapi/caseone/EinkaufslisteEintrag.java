@@ -1,7 +1,10 @@
 package com.rm.ekapi.caseone;
 
+import lombok.Data;
+
 import java.time.LocalDate;
 
+@Data
 public class EinkaufslisteEintrag {
     private String objektBezeichnung;
     private int menge;
